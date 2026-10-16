@@ -10,7 +10,20 @@
 - 可选参数组合扫描与排名
 - 数据来自 akshare
 
-## 运行
+## 快速启动（推荐：Docker Compose）
+
+```bash
+docker compose up -d --build
+```
+
+浏览器打开：**http://localhost:3330**
+
+停止：
+```bash
+docker compose down
+```
+
+## 本地直接运行
 
 ```bash
 pip install -r requirements.txt
