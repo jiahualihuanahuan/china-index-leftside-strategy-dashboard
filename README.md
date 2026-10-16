@@ -16,7 +16,7 @@
 docker compose up -d --build
 ```
 
-浏览器打开：**http://localhost:3330**
+浏览器打开：**http://localhost:3331**
 
 停止：
 ```bash
