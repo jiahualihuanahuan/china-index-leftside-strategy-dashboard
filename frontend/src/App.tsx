@@ -221,8 +221,8 @@ export default function App() {
                   <Metric label="Sharpe" value={metrics.sharpe} />
                 </div>
                 <p className="text-sm text-slate-400 leading-relaxed">
-                  RSI < {entryRsi} 建立首仓，RSI < {addRsi} 继续加仓（最多 {maxLayers} 层）。
-                  RSI > {reduceRsi} 开始分批卖出，RSI > {fullExitRsi} 全部清仓。
+                  RSI {"<"} {entryRsi} 建立首仓，RSI {"<"} {addRsi} 继续加仓（最多 {maxLayers} 层）。
+                  RSI {">"} {reduceRsi} 开始分批卖出，RSI {">"} {fullExitRsi} 全部清仓。
                   {useBb && " 已启用布林带下轨过滤。"}
                   {useMacd && " 已启用 MACD 共振过滤。"}
                 </p>
